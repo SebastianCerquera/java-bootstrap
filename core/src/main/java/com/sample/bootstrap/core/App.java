@@ -34,10 +34,4 @@ public class App {
 		
 	}
     
-    public static void main(String[] args) {
-    	
-    	// A thread can delegate the exception handler to its creator thread.
-    	handleUncaughtException();
-    }
-    
 }

@@ -18,6 +18,8 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.compiler.release>${java.version}</maven.compiler.release>
 
+ 		<mockito>3.5.13</mockito>
+ 		
         <junit>5.6.2</junit>
         
         <!-- Plugin versions -->
@@ -51,6 +53,13 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
             <version>${junit}</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>${mockito}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
