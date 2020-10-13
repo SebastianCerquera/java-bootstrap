@@ -17,7 +17,6 @@ public class Iterators {
 			list.add(value);
 		
 		return list;
-		
 	}
 	
 	public static List<String> buildFailSafe() {
@@ -26,8 +25,7 @@ public class Iterators {
 		for(String value: testCases)
 			list.add(value);
 		
-		return list;
-		
+		return list;	
 	}
-
+	
 }

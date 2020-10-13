@@ -1,5 +1,8 @@
 package com.sample.bootstrap.core;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class App {
 	
 	public static void handleUncaughtException() {
@@ -33,5 +36,15 @@ public class App {
 		otherThread.setUncaughtExceptionHandler(handler);
 		
 	}
+	
+	public static void varianceAndContravariance() {
+		Integer[] myInts = {1,2,3,4};
+		Number[] myNumber = myInts;
+		myNumber[0] = 3.14; //attempt of heap pollution
+	}
+    
+    public static void main(String[] args) {
+    	varianceAndContravariance();
+    }
     
 }
