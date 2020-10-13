@@ -1,8 +1,5 @@
 package com.sample.bootstrap.core;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class App {
 	
 	public static void handleUncaughtException() {
@@ -40,5 +37,4 @@ public class App {
     public static void main(String[] args) {
     	handleUncaughtException();
     }
-    
 }
